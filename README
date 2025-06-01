@@ -1,0 +1,14 @@
+This project provides the basic APIs for a news aggregator platform. It lets you create an account and fetch news articles based on your preferences
+
+POST /login
+    Provide the username and password or the Authentication token
+GET /users
+    Provides the list of registered users only if you are authenticated.
+GET /preferences
+    Gets the preferences of a registered user 
+PUT /preferences
+    Update your preferences
+POST /register
+    Lets you register yourself by providing username, password and news preferences
+GET /news
+    Fetches the news articles based on the search query and the preferences of the user.
